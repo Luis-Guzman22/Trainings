@@ -30,7 +30,7 @@ public class locationgeo {
 	       Number a = 17; // Foat
 	       Number b = 78; // Double
 	       Number c = 1; // Double
-		   Number d = 2; // Double
+		   Number d = 3; // Double
 	      // devTools.send(Emulation.setGeolocationOverride(Optional.of(a), Optional.of(a), Optional.of(c)));
 		
 		

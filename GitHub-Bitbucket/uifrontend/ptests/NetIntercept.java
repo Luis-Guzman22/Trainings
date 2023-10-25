@@ -24,6 +24,7 @@ public class NetIntercept {
 		WebDriverManager.chromedriver().setup();
 		// Launching browser
         ChromeDriver driver = new ChromeDriver();
+		FrxDriver driver = new FrxDriver();
        DevTools devTools =  driver.getDevTools();
        
        devTools.createSession();

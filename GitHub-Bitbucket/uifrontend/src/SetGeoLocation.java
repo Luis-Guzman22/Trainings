@@ -25,6 +25,7 @@ public class SetGeoLocation {
 		coordinates.put("latitude", 17);
 		coordinates.put("longitude", 78);
 		coordinates.put("accuracy", 1);
+		coordinates.put("val1", 101);
 		
 		driver.executeCdpCommand("Emulation.setGeolocationOverride", coordinates);
 		driver.get("http://google.com");

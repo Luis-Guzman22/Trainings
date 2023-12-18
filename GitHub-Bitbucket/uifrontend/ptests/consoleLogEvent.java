@@ -20,12 +20,7 @@ public class consoleLogEvent {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
-<<<<<<< HEAD
-		// Launching browser only chromes browsers
-=======
-		// Launching browser
->>>>>>> c978eed07948eba0b2815b38db5d0f4dc2463235
-		   ChromeDriver driver = new ChromeDriver();
+		ChromeDriver driver = new ChromeDriver();
 		   
 //	       DevTools devTools =  driver.getDevTools();
 //	       devTools.createSession();

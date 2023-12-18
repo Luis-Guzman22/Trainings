@@ -15,6 +15,7 @@ public class basicauth {
 		ChromeOptions options = new ChromeOptions();
 	
 		WebDriver driver = new ChromeDriver(options);
+		WebDriver driver1 = new ChromeDriver(options);
 		
 		Predicate<URI> uriPredicate = uri -> uri.getHost().contains("httpbin.org");
 

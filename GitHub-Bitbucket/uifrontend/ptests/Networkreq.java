@@ -17,6 +17,7 @@ public class Networkreq {
 		WebDriverManager.chromedriver().setup();
 		// Launching browser
         ChromeDriver driver = new ChromeDriver();
+	ChromeDriver driver1 = new ChromeDriver();
        DevTools devTools =  driver.getDevTools();
        
        devTools.createSession();

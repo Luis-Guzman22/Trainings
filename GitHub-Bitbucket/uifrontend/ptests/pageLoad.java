@@ -15,7 +15,7 @@ public class pageLoad {
 ChromeOptions chromeOptions1 = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
         WebDriver driver = new ChromeDriver(chromeOptions);
- WebDriver driver2 = new ChromeDriver(chromeOptions);
+ WebDriver driver3 = new ChromeDriver(chromeOptions);
         long startTime = System.currentTimeMillis();
         driver.get("https://rahulshettyacademy.com");
         long endTime = System.currentTimeMillis();

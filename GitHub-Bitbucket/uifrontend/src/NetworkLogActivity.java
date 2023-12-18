@@ -17,6 +17,7 @@ public class NetworkLogActivity {
 		
 		ChromeDriver driver = new ChromeDriver();
 		ChromeDriver driver1 = new ChromeDriver();
+		ChromeDriver driver2 = new ChromeDriver();
 		//log file ->
 		
 		DevTools devTools = driver.getDevTools();
